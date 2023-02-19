@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../CSS/home.css">        
+    <script src="../JS/home.js"></script>
+</head>
+
+<div class="Dim-Background">
+    <body>
+        <h1>
+            Youtube Link Stats
+        </h1>
+        <div class="Search-Section">
+            <div class="Search-Bar-Container">
+                <input type="text" id="search-bar" placeholder="Enter Valid Youtube Video Link Here!!"><br>
+            </div>
+            <div class="Search-Button-Container">
+                <button id="search-button" onclick="searchLink()">SEARCH</button>
+            </div>
+            <div class="Search-Button-Container">
+                <button id="stats-button" onclick="getStats()">STATS</button>
+            </div>
+        </div>
+        <div class="Cards-Container">
+                <div id="video-info-card">
+                    <b id="Card-Header">Channel Name</b><br>
+                    <b id="Channel-Name">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Channel Subscribers</b><br>
+                    <b id="Channel-Subs">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Channel Total Views</b><br>
+                    <b id="Channel-Views">N/A</b><br><br>
+                    <br>
+                    <b id="Card-Header">Video Title</b><br>
+                    <b id="Title">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Video Published At</b><br>
+                    <b id="Publish-Date">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Video Duration</b><br>
+                    <b id="Duration">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Video Views</b><br>
+                    <b id="Views">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Video Likes</b><br>
+                    <b id="Likes">N/A</b><br><br>
+                    
+                    <br>
+                    <b id="Card-Header">Video Comments</b><br>
+                    <b id="Comments">N/A</b>
+                </div>
+                
+                <div id="stats-card">
+                    <b>Channel With Highest Total Views</b><br>
+                    <b id="Channel-Highest-Views">N/A</b><br>
+                    <br>
+                    <b>Channel With Highest Subs</b><br>
+                    <b id="Channel-Highest-Subs">N/A</b><br>
+                    
+                    <br>
+                    <b>Channel With Lowest Views</b><br>
+                    <b id="Channel-Lowest-Views">N/A</b><br>
+                    <br>
+                    <b>Channel With Lowest Subs</b><br>
+                    <b id="Channel-Lowest-Subs">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Highest Total Views</b><br>
+                    <b id="Video-Highest-Views">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Highest Subscribers</b><br>
+                    <b id="Video-Highest-Subs">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Highest Comments</b><br>
+                    <b id="Video-Highest-Comments">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Lowest Total Views</b><br>
+                    <b id="Video-Lowest-Views">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Lowest Subscribers</b><br>
+                    <b id="Video-Lowest-Subs">N/A</b><br>
+                    
+                    <br>
+                    <b>Video With Lowest Comments</b><br>
+                    <b id="Video-Lowest-Comments">N/A</b><br>
+                    <br>
+                </div>
+        </div>
+    </body>
+</div>
+
+</html>

@@ -1,0 +1,89 @@
+html, body {
+    background: url(../CSS/youtube_background.png) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.Dim-Background {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: auto;
+}
+
+.Search-Section {
+}
+
+.Search-Bar-Container {
+    text-align: center;
+}
+
+.Search-Button-Container {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#search-bar {
+    height: 50px;
+    width: 75%;
+    border-radius: 25px;
+    font-size: 40px;
+}
+
+#search-button, #stats-button{
+    background: url(file:///Users/ilyasarif/Documents/ASU/Fall%202022/CSE412%20-De%20Luca/Project%20Code/412FinalCode/CSS/cardbackground.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    margin: 10px;
+    font-size: 40px;
+    font-weight: medium;
+    font-style: italic;
+    color: white;
+    border-radius: 25px;
+    width: 25%;
+    height: 50px;
+}
+
+.Cards-Container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#video-info-card, #stats-card {
+    display: none;
+    background: url(../CSS/cardbackground.png) no-repeat center center fixed;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+#Card-Header {
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
+}
+#Channel-Name, #Channel-Subs, #Channel-Views, #Title, #Duration, #Publish-Date, #Views, #Likes, #Comments {
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(0, 255, 128);
+}
